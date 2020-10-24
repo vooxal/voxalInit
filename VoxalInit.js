@@ -8,7 +8,7 @@
  * @param {string=} appData.dataStorage - Checks the localStorage for certain data. if it doesn't exist it will say so.
  */
 
-class VoxalInit {
+export class VoxalInit {
   constructor({ name, version, files, dataStorage }) {
     const load = (str, file) => {return `📁 File %c${file}%c loaded`};
     console.groupCollapsed("Initialization");
